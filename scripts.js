@@ -9,7 +9,7 @@ container.setAttribute('class', 'container');
 app.appendChild(container);
 
 var request = new XMLHttpRequest();
-request.open('GET', 'http://127.0.0.1:8000', true);
+request.open('GET', 'http://pycodects.pythonanywhere.com/?format=json', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
