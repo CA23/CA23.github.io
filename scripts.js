@@ -59,7 +59,7 @@ a_members.forEach(function(member){
 const h3 = document.createElement('h3');
 h3.setAttribute('class', 'time');
 
-h3.textContent = "The optimal hour long span during which maximum members are available is " +
+h3.textContent = "The optimal hour long span during which maximum members are available begins at " +
 String(max_hr) + ":00 HRS";
 app.appendChild(h3);
 
